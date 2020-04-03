@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    user-select: none;
+    -moz-user-focus: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+/*General*/
+.container-fluid{
+    width: 100%;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.center{
+    text-align: center;
+    justify-self: center;
+}
+p{
+    margin: 20px auto;
+}
+/*Nav*/
+nav{
+    background:linear-gradient(#ffffff, #ffffff6e);
+    width: 100vw;
+    position: fixed;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+.brand__logo{
+    display: flex;
+}
+.brand__logo img{
+    width: 200px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    color: #000;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 0px 5px;
+}
+.menu .buttons button{
+    background: rgb(123, 123, 255);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-size: 1rem;
+}
+/*Backgroung Hero*/
+.main-bg-hero{
+    background-image: url('../images/1.png');
+    background-size: 320px 473px;
+    background-repeat: no-repeat;
+    background-position: 60vw center;
+}
+
+/*Header Main Text*/
+.header-title-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.header__title{
+    width: 500px;
+}
+.header__title h1{
+    font-size: 3rem;
+    color: rgb(37, 37, 37);
+}
+.header__title p{
+    font-size: 1.4rem;
+    color: rgb(68, 68, 68);
+}
+.buttons__header{
+    margin-top: 20px;
+}
+.buttons__header .btn-contactme{
+    border: 2px solid #0266b8;
+    border-radius: 40px;
+}
+.buttons__header .btn-contactme a{
+    color: #0266b8;
+    font-size: 1rem;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+}
+.buttons__header .btn-moreinfo{
+    border: none;
+    background-color: #e2e2e2;
+    border-radius: 40px;
+    
+}
+.buttons__header .btn-moreinfo a{
+    color: #6e6e6e;
+    font-size: 1rem;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+}
+
+/*Secction about me*/
+.aboutme{
+    height: 100vh;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+.aboutme h3{
+    font-size: 2.3rem;
+}
+.aboutme .image{
+    width: 50vw;
+}
+.aboutme .image img{
+    width: 90%;
+}
+.aboutme .resume{
+    width: 500px;
+}
+/*Service offers*/
+.service-offers{
+    text-align: center;
+    height: 90vh;
+}
+/*Secction service offers*/
+.service-offers{
+    height: 90vh;
+}
